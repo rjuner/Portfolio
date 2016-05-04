@@ -1,0 +1,140 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px;
+	color:#ffffff;
+}
+
+h1{
+	color:#ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+}
+
+h2{
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+a{
+	color: #777777;
+	text-decoration: none;
+	padding: 2px;
+}
+
+p{
+	margin: 10px;
+}
+
+#nameTag{
+	position:absolute;
+	left:100px;
+	background:#4aaaa5;
+	width:150px;
+	height:50px;
+	padding: 10px;
+}
+
+#navBar {
+	background: #ffffff;
+	height:70px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-bottom: solid 1px #cccccc;
+}
+
+.navBox{
+	position:relative;
+	top:25px;
+	right:-725px;
+	width:300px;
+	height:10px;
+}
+
+.nav{
+	float: left;
+	padding: 5px;
+	margin:3px;
+	border-right: solid 1px #cccccc;
+}
+
+input[type=text]{
+    height:25px; 
+    width: 275px; 
+    margin:10px 10px 10px 0px;
+
+}
+
+textarea{
+    height:100px; 
+    width: 275px; 
+    margin:10px 10px 10px 0px;
+
+}
+.flavorText{
+	color:#777777;
+	background: #ffffff;
+	float:left;
+	margin: 25px 0px 0px 100px;
+	padding: 20px;
+	width: 550px;
+	border: solid 1px #cccccc;
+}
+
+#main{
+	float:left;
+	background-image: url("../images/wavegrid.png");
+	width: 100%;
+}
+
+.social{
+	position: absolute;
+	left: 700px;
+	float:left;
+	margin: 25px;
+	padding: 25px;
+	width:250px;
+	background: #ffffff;
+	border: solid 1px #cccccc;
+}
+
+form{
+	margin: 15px;
+}
+.socLinks{
+	float:left;
+	margin: 15px; 
+	padding: 10px;
+}
+
+/* section.project{
+	border-color: pink;
+	border-style: dashed;
+	border-width: 3px;
+}
+*/
+
+img.med {
+	width: 250px;
+	height: 250px;
+	float:left;
+	margin: 15px 15px 0px 0px;
+}
+
+#footer{
+	font-style: italic;
+	font-size: 10px; 
+	text-align: center;
+	border-top: solid 4px #4aaaa5;
+	height:60px;
+	background: #666666;
+	padding: 0px;
+	clear:both;
+}
