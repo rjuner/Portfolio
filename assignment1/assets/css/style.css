@@ -223,6 +223,46 @@ input[type=submit] {
 	body {
 		background-color: red;
 	}
+
+	#logo {
+		margin-left: 100px;
+	}
+
+	nav{
+		margin-right: 40px;
+	}
+
+	.auth-image{
+		width: 400px;
+		margin-bottom: 30px;
+	}
+
+	.main-section {
+		background: #fff;
+		padding: 30px;
+ 		margin: 20px;
+		max-width: 500px;
+		margin-left: 100px;
+		border: 1px solid #ddd;
+	}
+
+	.sidebar {
+		background: #fff;
+		padding: 30px;
+		float: left;
+		border: 1px solid #ddd;
+		margin-top: 20px;
+		margin-left: 25px;
+	}
+
+	.work{
+		width: 400px;
+		margin-left: 20px;
+	}
+
+	.work:nth-child(even) {
+		margin-right: 40px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -261,11 +301,11 @@ input[type=submit] {
 	}
 
 	.work{
-		width: 300px;
+		width: 275px;
 	}
 
 	.work:nth-child(even) {
-		margin-right: 30px;
+		margin-right: 10px;
 	}
 }
 
