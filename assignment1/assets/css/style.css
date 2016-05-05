@@ -226,16 +226,62 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
+	.auth-image{
+		width: 50%;
+	}
+
 	body {
 		background-color: purple;
+	}
+
+	#logo {
+		margin-left: 30px;
+	}
+
+	nav{
+		margin-right: 40px;
+	}
+
+	.main-section {
+		background: #fff;
+		padding: 30px;
+ 		margin: 20px;
+		width: 100%;
+		max-width: 700px;
+		border: 1px solid #ddd;
+	}
+
+	.sidebar {
+		background: #fff;
+		padding: 30px;
+		max-width: 700px;
+		float: left;
+		border: 1px solid #ddd;
+		margin: 0 20px 20px 20px;
+	}
+
+	.work{
+		width: 300px;
+	}
+
+	.work:nth-child(even) {
+		margin-right: 30px;
 	}
 }
 
 @media screen and (max-width: 640px) {
+	/* For index file*/
+
+	.auth-image{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
 	body {
 		background-color: yellow;
 	}
 	#logo{
+		margin-left: 0;
 		position: static;
 		width: 100%;
 	}
@@ -249,6 +295,7 @@ input[type=submit] {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+
 	.main-section {
 		background: #fff;
 		padding: 30px;
@@ -256,7 +303,8 @@ input[type=submit] {
 		width: 100%;
 		max-width: 550px;
 		border: 1px solid #ddd;
-}
+	}
+
 	.sidebar {
 		background: #fff;
 		padding: 30px;
@@ -264,8 +312,17 @@ input[type=submit] {
 		max-width: 550px;
 		float: left;
 		border: 1px solid #ddd;
-		margin: 10px;
-}
+		margin: 0 20px 20px 20px;
+	}
+	
+	/* For Portfolio*/
 
+	.work {
+		width: 100%;
+		overflow: auto;
+		position: relative;
+		float: left;
+		margin: 20px 0 25px;
+	}
 
 }
