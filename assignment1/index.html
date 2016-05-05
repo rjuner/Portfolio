@@ -1,107 +1,69 @@
 <!doctype html>
 <html>
-	<head>
-		<title>My Awesome Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
-		
-	</head>
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About | Rhea Rivera</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
 
-	<body>
-
- 	<div class="wrapper">
-
-	<!--NAME sticky-->
-		<div id="nameTag">
-			<h1>Rhea R.</h1>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Rhea Rivera</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
+	</header>
 
-	<!--NAVIGATION BAR div-->
-		<div id="navBar">
-			<!--NAV BOX-->
-			<div class="navBox">
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>About Me</h1>
 
-				<div class="nav">
-					<a href="index.html">About</a>
-				</div>
+			<img src="assets/images/profile_pic.jpg" class="auth-image" alt="Your Name">
 
-				<div class="nav">
-					<a href="portfolio02.html">Portfolio</a>
-				</div>
+			<p>Hi there, it's Rhea Rivera! I'm a gemini born in the year of the dragon, but really, who can trust the stars? </p>
 
-				<div class="nav">
-					<a href="contact.html">Contact</a>
-				</div>
+			<p>My tagline is: Video production hands, tech head, art school heart. I've been in love with technology since I was a wee babe, I'm an art school dropout who went to Film school.</p>
 
-			</div>
+			<p>I want to be successful at all the things, but for right now I'm focusing on becoming a Full Stack Web Developer (Thanks, UT Coding Bootcamp!)</p>
 
-		</div>
-
-	<!--MAIN CONTENT container-->
-		<section id="main">
-
-			<div class="flavorText">
-
-			<h2>About Me</h2>
-
-			<hr>
-
-			<!--remember to change the height and width of this picture to 0 when using .css-->
-			<img src="assets/images/profile_pic.jpg" class="med" height="200px" width="200px">
-
-				<p>Hi there, it's Rhea Rivera! I'm a gemini born in the year of the dragon, but really, who can trust the stars? </p>
-
-				<p>
-				My tagline is: Video production hands, tech head, art school heart. I've been in love with technology since I was a wee babe, I'm an art school dropout who went to Film school.</p>
-
-				<p>I want to be successful at all the things, but for right now I'm focusing on becoming a Full Stack Web Developer (Thanks, UT Coding Bootcamp!)</p>
-
-				<p>If someone is giving you a hard time about wanting to be a "Jack of All Trades" tell them this is the full quote and walk away smugly:</p>
+			<p>If someone is giving you a hard time about wanting to be a "Jack of All Trades" tell them this is the full quote and walk away smugly:</p>
 				
-				<p>"A jack of all trades is a master of none, but oftentimes better than a master of one".</p>
+			<p>"A jack of all trades is a master of none, but oftentimes better than a master of one".</p>
 
-				<p>Have a look around on my site and thanks for visiting! </p>
-			</div>
-
-			<!--SOCIAL MEDIA box-->
-			<div class="social">
-
-			<h2>Connect With Me!</h2>
-
-			<hr>
-
-				<div class="socLinks">
-					<a href="https://github.com/rjuner">
-					<img src="assets/images/gitMark_158.png" height="50px" width="50px">
-					</a>
-		
-					<a href="https://linkedin.com/in/rjuner">
-					<img src="assets/images/linkedIn_158.png" height="50px" width="50px">
-					</a>
-			
-					<a href="http://stackoverflow.com/users/6248840/rjuner">
-					<img src="assets/images/so-icon.png" height="50px" width="50px">
-					</a>
-				</div>
+			<p>Have a look around on my site and thanks for visiting! </p>
 
 		</section>
 
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
-	<div class="push"></div>
+				<a href="https://github.com/rjuner">
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				</a>
 
-	</div>
+				<a href="https://linkedin.com/in/rjuner">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				</a>
 
-<!--FOOTER, should be sticky-->
-
-	<div class="footer">
-		<div id="wrapper">
-			<div id = "footer">
-				<p> &copy; 2016 Copyright Rhea Rivera</p>
+				<a href="http://stackoverflow.com/users/6248840/rjuner">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+				</a>
+				
 			</div>
-		</div>
-
+		</section>
 	</div>
-		
-	</body>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Rhea Rivera
+		</div>
+	</footer>
+</body>
 </html>

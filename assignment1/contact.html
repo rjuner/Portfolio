@@ -1,104 +1,71 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Contact Me!</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact | Rhea Rivera</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
 
-	</head>
-
-	<body>
-
-	<div class="wrapper">
-
-	<!--NAME sticky-->
-		<div id="nameTag">
-			<h1>Rhea R.</h1>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Rhea Rivera</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
+	</header>
 
-	<!--NAVIGATION BAR div-->
-		<div id="navBar">
-			<!--NAV BOX-->
-			<div class="navBox">
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
 
-				<div class="nav">
-					<a href="index.html">About</a>
-				</div>
-
-				<div class="nav">
-					<a href="portfolio02.html">Portfolio</a>
-				</div>
-
-				<div class="nav">
-					<a href="contact.html">Contact</a>
-				</div>
-
-			</div>
-
-		</div>
-
-	<!--MAIN CONTENT container-->
-		<section id="main">
-
-			<div class="flavorText">
-
-				<h2>Contact</h2>
-
-				<hr>
-
-				<form>
-
- 				<label for ="firstName">Name:</label><br>
-  				<input type="text" name="firstName" value="Jane Doe"><br>
-  				E-mail:<br>
- 			 	<input type="text" name="lastName" value="example@gmail.com"><br>
- 			 	Message:<br>
-
- 			 	<textarea rows="4" cols="50">Say Howdy!</textarea>
-
-				</form>
-
-			</div>
-
-			<!--SOCIAL MEDIA box-->
-			<div class="social">
-
-			<h2>Connect With Me!</h2>
-
-			<hr>
-
-				<div class="socLinks">
-					<a href="https://github.com/rjuner">
-					<img src="assets/images/gitMark_158.png" height="50px" width="50px">
-					</a>
-		
-					<a href="https://linkedin.com/in/rjuner">
-					<img src="assets/images/linkedIn_158.png" height="50px" width="50px">
-					</a>
-			
-					<a href="http://stackoverflow.com/users/6248840/rjuner">
-					<img src="assets/images/so-icon.png" height="50px" width="50px">
-					</a>
-				</div>
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" placeholder="Say Howdy!" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 
 		</section>
 
-	<div class="push"></div>
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
-	</div>
+				<a href="https://github.com/rjuner">
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				</a>
 
-	<!--FOOTER, should be sticky-->
+				<a href="https://linkedin.com/in/rjuner">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				</a>
 
-	<div class="footer">
-
-		<div id="wrapper">
-			<div id = "footer">
-				<p> &copy; 2016 Copyright Rhea Rivera</p>
+				<a href="http://stackoverflow.com/users/6248840/rjuner">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+				</a>
 			</div>
-		</div>
-
+		</section>
 	</div>
-		
-	</body>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Rhea Rivera
+		</div>
+	</footer>
+</body>
 </html>
